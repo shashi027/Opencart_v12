@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-17T07:41:26 IST" name="Suite" finished-at="2025-02-17T07:44:31 IST" duration-ms="185400">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_Account_Registeration.verify_acc_reg()[pri:0, instance:testCases.TC001_Account_Registeration@6e4566f1]" name="verify_acc_reg" class="testCases.TC001_Account_Registeration"/>
+        <method signature="TC001_Account_Registeration.verify_acc_reg()[pri:0, instance:testCases.TC001_Account_Registeration@16414e40]" name="verify_acc_reg" class="testCases.TC001_Account_Registeration"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC001_Account_Registeration.verify_acc_reg()[pri:0, instance:testCases.TC001_Account_Registeration@6e4566f1]" name="verify_acc_reg" class="testCases.TC001_Account_Registeration"/>
+        <method signature="TC001_Account_Registeration.verify_acc_reg()[pri:0, instance:testCases.TC001_Account_Registeration@16414e40]" name="verify_acc_reg" class="testCases.TC001_Account_Registeration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-02-17T07:41:26 IST" name="LinuxFirefoxTest" finished-at="2025-02-17T07:41:36 IST" duration-ms="10485">
+      <class name="testCases.TC001_Account_Registeration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_Account_Registeration@16414e40]" started-at="2025-02-17T07:41:26 IST" name="setup" finished-at="2025-02-17T07:41:33 IST" duration-ms="6958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_acc_reg()[pri:0, instance:testCases.TC001_Account_Registeration@16414e40]" started-at="2025-02-17T07:41:33 IST" name="verify_acc_reg" finished-at="2025-02-17T07:41:36 IST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_acc_reg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_Account_Registeration@16414e40]" started-at="2025-02-17T07:41:36 IST" name="teardown" finished-at="2025-02-17T07:41:36 IST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_Account_Registeration -->
+    </test> <!-- LinuxFirefoxTest -->
+    <test started-at="2025-02-17T07:41:26 IST" name="Linux_ChromeTest" finished-at="2025-02-17T07:44:31 IST" duration-ms="185400">
+      <class name="testCases.TC001_Account_Registeration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_Account_Registeration@6e4566f1]" started-at="2025-02-17T07:41:26 IST" name="setup" finished-at="2025-02-17T07:44:27 IST" duration-ms="181080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_acc_reg()[pri:0, instance:testCases.TC001_Account_Registeration@6e4566f1]" started-at="2025-02-17T07:44:27 IST" name="verify_acc_reg" finished-at="2025-02-17T07:44:31 IST" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_acc_reg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_Account_Registeration@6e4566f1]" started-at="2025-02-17T07:44:31 IST" name="teardown" finished-at="2025-02-17T07:44:31 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_Account_Registeration -->
+    </test> <!-- Linux_ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
